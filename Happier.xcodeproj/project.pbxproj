@@ -12,6 +12,7 @@
 		E92E603F1C7D0C6D00D09E4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E92E603D1C7D0C6D00D09E4D /* Main.storyboard */; };
 		E92E60411C7D0C6D00D09E4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E92E60401C7D0C6D00D09E4D /* Assets.xcassets */; };
 		E92E60441C7D0C6D00D09E4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E92E60421C7D0C6D00D09E4D /* LaunchScreen.storyboard */; };
+		E9DEC5201C7E4C5600211CF3 /* ColorsStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DEC51F1C7E4C5600211CF3 /* ColorsStruct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		E92E60401C7D0C6D00D09E4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E92E60431C7D0C6D00D09E4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E92E60451C7D0C6D00D09E4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9DEC51F1C7E4C5600211CF3 /* ColorsStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorsStruct.swift; sourceTree = "<group>"; };
+		E9DEC5221C7E4EEF00211CF3 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +57,14 @@
 		E92E60381C7D0C6D00D09E4D /* Happier */ = {
 			isa = PBXGroup;
 			children = (
+				E9DEC5221C7E4EEF00211CF3 /* MyPlayground.playground */,
 				E92E60391C7D0C6D00D09E4D /* AppDelegate.swift */,
 				E92E603B1C7D0C6D00D09E4D /* ViewController.swift */,
 				E92E603D1C7D0C6D00D09E4D /* Main.storyboard */,
 				E92E60401C7D0C6D00D09E4D /* Assets.xcassets */,
 				E92E60421C7D0C6D00D09E4D /* LaunchScreen.storyboard */,
 				E92E60451C7D0C6D00D09E4D /* Info.plist */,
+				E9DEC51F1C7E4C5600211CF3 /* ColorsStruct.swift */,
 			);
 			path = Happier;
 			sourceTree = "<group>";
@@ -136,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E92E603C1C7D0C6D00D09E4D /* ViewController.swift in Sources */,
+				E9DEC5201C7E4C5600211CF3 /* ColorsStruct.swift in Sources */,
 				E92E603A1C7D0C6D00D09E4D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +290,7 @@
 				E92E604A1C7D0C6D00D09E4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
